@@ -41,25 +41,25 @@ Full step-by-step instructions are in [docs/phase1-local-fhir-server-guide.md](d
 2. Install the Python dependency:
 
    ```bash
-   python3 -m pip install requests
+   python -m pip install requests
    ```
 
 3. Download `synthea-with-dependencies.jar` from the [Synthea setup page](https://github.com/synthetichealth/synthea/wiki/Basic-Setup-and-Running) into the repo folder, then generate patients:
 
    ```bash
-   java -jar synthea-with-dependencies.jar -s 42 -p 100 -a 40-80 Massachusetts
+   java -jar synthea-with-dependencies.jar -s 42 -p 15 -a 40-80 Massachusetts
    ```
 
 4. Load them into the server:
 
    ```bash
-   python3 load_synthea.py --dir ./output/fhir --base http://localhost:8080/fhir
+   python load_synthea.py --dir ./output/fhir --base http://localhost:8080/fhir
    ```
 
 5. Explore the data:
 
    ```bash
-   python3 explore.py --base http://localhost:8080/fhir
+   python explore.py --base http://localhost:8080/fhir
    ```
 
 ## Reproducing the data
@@ -67,7 +67,7 @@ Full step-by-step instructions are in [docs/phase1-local-fhir-server-guide.md](d
 Generated data is not committed. Running Synthea with the same seed recreates the same patients:
 
 ```bash
-java -jar synthea-with-dependencies.jar -s 42 -p 100 -a 40-80 Massachusetts
+java -jar synthea-with-dependencies.jar -s 42 -p 15 -a 40-80 Massachusetts
 ```
 
 If you change the seed, population size, or age range, update the command here so others can reproduce your data.
