@@ -1,0 +1,7 @@
+# Synthea program and generated data (regenerate with the same seed instead)
+synthea-with-dependencies.jar
+output/
+
+# Python
+__pycache__/
+.venv/
