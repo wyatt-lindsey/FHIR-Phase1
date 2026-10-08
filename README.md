@@ -72,6 +72,17 @@ java -jar synthea-with-dependencies.jar -s 42 -p 15 -a 40-80 Massachusetts
 
 If you change the seed, population size, or age range, update the command here so others can reproduce your data.
 
+## Start/Stop FHIR Server
+
+To stop the server, run:
+```bash
+   docker stop hapi
+   ```
+To start the server, run:
+```bash
+   docker start hapi
+   ```
+
 ## Data rules
 
 - **Synthetic data only** for now. Real patient data is governed by HIPAA and requires working inside a healthcare institution.
