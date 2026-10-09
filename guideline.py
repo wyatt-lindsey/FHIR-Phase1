@@ -85,6 +85,8 @@ class PatientData:
     egfr: list = field(default_factory=list)         # [Lab]
     uacr: list = field(default_factory=list)         # [Lab]
     active_meds: list = field(default_factory=list)  # [(codings, display)]
+    deceased: bool = False                           # deceasedBoolean or deceasedDateTime present
+    deceased_date: date | None = None                # deceasedDateTime, if given
 
 
 @dataclass
@@ -132,8 +134,21 @@ def latest(labs, as_of):
     return max(past, key=lambda l: l.when) if past else None
 
 
+def latest_day(labs, as_of):
+    """All results from the most recent day on or before as_of (D15).
+    Real and Synthea records can hold several results for the same day."""
+    e = latest(labs, as_of)
+    return [l for l in labs if l.when == e.when] if e else []
+
+
 def evaluate(p: PatientData, as_of: date) -> Result:
     facts = {}
+
+    # 0. Alive (D14). A death dated after as_of doesn't count, so evaluating
+    #    a past date (--as-of) still works for patients who died later.
+    if p.deceased and (p.deceased_date is None or p.deceased_date <= as_of):
+        when = f" on {p.deceased_date}" if p.deceased_date else ""
+        return Result(NOT_APPLICABLE, [f"Patient deceased{when}"], facts)
 
     # 1. Adult
     if p.birth_date is None:
@@ -185,11 +200,24 @@ def evaluate(p: PatientData, as_of: date) -> Result:
         return Result(NOT_APPLICABLE, ["No evidence of CKD"], facts)
 
     # 5. Recent eGFR at or above the initiation threshold
-    e = latest(p.egfr, as_of)
-    if e is None or (as_of - e.when).days > EGFR_LOOKBACK_DAYS:
+    day = latest_day(p.egfr, as_of)
+    if not day or (as_of - day[0].when).days > EGFR_LOOKBACK_DAYS:
         return Result(INSUFFICIENT_DATA,
                       reasons + [f"No eGFR in the last {EGFR_LOOKBACK_DAYS} days"], facts)
-    facts["latest_egfr"] = (e.value, e.when.isoformat())
+    when = day[0].when
+    values = sorted(l.value for l in day)
+    lo, hi = values[0], values[-1]
+    facts["latest_egfr"] = (lo, when.isoformat())
+    if len(values) > 1:
+        facts["same_day_egfr"] = values
+    # D15: several results on the latest day. If they straddle the threshold
+    # we can't tell which is right, so say so; otherwise use the lowest.
+    if lo < EGFR_INITIATION_MIN <= hi:
+        shown = ", ".join(f"{v:g}" for v in values)
+        return Result(INSUFFICIENT_DATA,
+                      reasons + [f"Conflicting eGFR results on {when}: {shown} "
+                                 f"(on both sides of {EGFR_INITIATION_MIN})"], facts)
+    e = Lab(lo, day[0].unit, when)
     facts["suggested_agents"] = SUGGESTED_AGENTS
     if e.value < EGFR_INITIATION_MIN:
         return Result(NOT_APPLICABLE,
@@ -198,7 +226,8 @@ def evaluate(p: PatientData, as_of: date) -> Result:
 
     return Result(RECOMMEND,
                   [f"Type 2 diabetes ({t2d.display})"] + reasons +
-                  [f"Latest eGFR {e.value:g} on {e.when} (>= {EGFR_INITIATION_MIN})",
+                  [f"Latest eGFR {e.value:g} on {e.when} (>= {EGFR_INITIATION_MIN})"
+                   + (f"; lowest of {len(values)} results that day" if len(values) > 1 else ""),
                    "Not currently on an SGLT2 inhibitor",
                    "Agents with demonstrated benefit (ADA 11.7a): " + ", ".join(SUGGESTED_AGENTS)],
                   facts)
@@ -241,7 +270,9 @@ def build_patient_data(patient, conditions, observations, med_requests, medicati
     names = patient.get("name") or [{}]
     name = " ".join(names[0].get("given", []) + [names[0].get("family", "")]).strip()
     p = PatientData(id=patient.get("id", ""), name=name,
-                    birth_date=_date(patient.get("birthDate")))
+                    birth_date=_date(patient.get("birthDate")),
+                    deceased=bool(patient.get("deceasedDateTime") or patient.get("deceasedBoolean")),
+                    deceased_date=_date(patient.get("deceasedDateTime")))
 
     for c in conditions:
         code = c.get("code") or {}

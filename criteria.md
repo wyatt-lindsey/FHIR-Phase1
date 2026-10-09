@@ -48,13 +48,23 @@ Each row is one ambiguity in the sentence above and how the code resolves it. Ch
 | D11 | Other contraindications (pregnancy, recurrent ketoacidosis, allergy)? | _Open — ask a clinician_ | 11.7a doesn't list them | |
 | D12 | Which SGLT2 inhibitors have "demonstrated benefit to reduce CKD progression and cardiovascular events"? | Canagliflozin, dapagliflozin and empagliflozin. A RECOMMEND result names these three | Each has a dedicated kidney outcome trial (CREDENCE, DAPA-CKD and EMPA-KIDNEY). Ertugliflozin and bexagliflozin have no kidney outcome trial. **Confirm with a clinician** | `SGLT2_DEMONSTRATED_BENEFIT` |
 | D13 | Does "already on an SGLT2 inhibitor" (D8) include one *without* demonstrated benefit (ertugliflozin, bexagliflozin)? | Yes, still not applicable, but the reason says the agent lacks kidney outcome evidence so a clinician can decide whether to switch | Suggesting a second drug from the same class would be wrong. Silently treating ertugliflozin as equal would hide what 11.7a says | `evaluate()` |
+| D14 | What about patients who have died? | Not applicable if `Patient.deceasedDateTime` is on or before the evaluation date, or `deceasedBoolean` is true. A death dated after the evaluation date is ignored, so `--as-of` still works | Found in hand review (patient 112236, Synthea keeps patients who died). The code had said INSUFFICIENT_DATA because their last eGFR was from 2017 | `evaluate()` step 0 |
+| D15 | What if there are several eGFR results on the latest day? | If they fall on both sides of 20, return INSUFFICIENT_DATA ("conflicting eGFR results"). Otherwise use the lowest | Found in hand review (patient 220864: 54.377 and 16.41 at the same time, same encounter; the code picked one arbitrarily and said RECOMMEND). Real records also have repeat draws and corrected results. Flagging the conflict is more honest than picking one | `latest_day()`, `evaluate()` step 5 |
 
 ## Truth table (hand-checked)
 
 Fill this in from the cohort run (Step 6 in the guide). Pick some patients the code marks RECOMMEND and some it doesn't, read their full record, and record what you conclude yourself before you look at the code's answer.
 
 | Patient ID | Name | My answer | Code's answer | Agree? | Notes |
-| --- | --- | --- | --- | --- | --- |
+| 101314 | Eunice Beahan | Not applicable | Not applicable | Yes | No evidence of CKD |
+| 123560 | Jody Hickle | Recommend | Recommend | Yes | Has Type 2 Diabetes, has active Stage 1 CKD, latest eGFR ≥20 and with 365 days, is not currently on an SGLT2, and does not have ESKD |
+| 112236 | Parker Hintz | Not applicable | Insufficient data | No | Patient is deceased, meaning the decision should be "not applicable" instead of "insufficient data". Fixed by D14; |
+| 138555 | Larissa Golner | Not applicable | Not applicable | Yes | No evidence of CKD |
+| 216334 | Dong Borer | Not applicable | Not applicable | Yes | Has active type 2 diabetes and CKD, but latest eGFR is below threshold |
+| 220864 | Brianna Pagac | Insufficient data | Recommend | No | Has active type 2 diabetes and CKD, but has two eGFR values on the most recent day (one over 20, and one under 20) |
+| | | | | | |
+| | | | | | |
+| | | | | | |
 | | | | | | |
 
 ## Open questions for clinical review
@@ -64,5 +74,6 @@ Fill this in from the cohort run (Step 6 in the guide). Pick some patients the c
 - [ ] Which contraindications belong in D11?
 - [ ] D12: Is the list of agents with demonstrated benefit right, and should it change as new trials report?
 - [ ] D13: For a patient on ertugliflozin or bexagliflozin, should the tool suggest switching?
+- [ ] D15: Is "same day" the right grouping for conflicting eGFR results, and should the lowest value win when they agree?
 - [ ] Should there be a separate continuation rule (on an SGLT2 inhibitor, eGFR below 20, not on dialysis)? What would it tell the clinician?
 - [ ] Should 11.7b (GLP-1 receptor agonist) be the next rule?

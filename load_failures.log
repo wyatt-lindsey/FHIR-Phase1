@@ -1,0 +1,256 @@
+2026-10-09 10:19:09  Cornell131_Kshlerin58_8c9658c1-37b5-c9fc-2510-1190835eca52.json
+    HTTP 500 after 39s: HAPI-0389: Failed to call access method: org.springframework.dao.DataAccessResourceFailureException: Unable to release JDBC Connection [The database has been closed [90098-232]] [n/a]
+2026-10-09 10:19:09  Wm806_Marks830_9a574a84-f76d-12dc-0cde-7690f012514a.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C9a574a84-f76d-12dc-0cde-7690f012514a&_summary=count
+2026-10-09 10:19:09  Owen89_Bauch723_c63d024f-355e-35ca-4a05-f80d1ad6c79d.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cc63d024f-355e-35ca-4a05-f80d1ad6c79d&_summary=count
+2026-10-09 10:19:10  Selena146_Bennie663_Schaden604_dce20b69-20f0-bd7e-98ef-7d74b7d74b77.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cdce20b69-20f0-bd7e-98ef-7d74b7d74b77&_summary=count
+2026-10-09 10:19:11  Yong583_Zulauf375_27181dd6-98fe-9cef-b255-7f44eb3e3365.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C27181dd6-98fe-9cef-b255-7f44eb3e3365&_summary=count
+2026-10-09 10:19:11  Galen747_Koelpin146_5fb3b9bc-eba6-e693-4e05-6bd91dbea56b.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C5fb3b9bc-eba6-e693-4e05-6bd91dbea56b&_summary=count
+2026-10-09 10:19:11  Blake449_See995_Reynolds644_ce44621f-406f-233d-11a3-22cdc96f9aec.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cce44621f-406f-233d-11a3-22cdc96f9aec&_summary=count
+2026-10-09 10:19:11  Kayleen757_Felisa186_Greenholt190_fc2798ca-88d0-3fbd-9e43-851cc245a201.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cfc2798ca-88d0-3fbd-9e43-851cc245a201&_summary=count
+2026-10-09 10:19:12  Carly657_Danette111_Nicolas769_abc2bbe5-319f-816e-72ae-17173e065353.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cabc2bbe5-319f-816e-72ae-17173e065353&_summary=count
+2026-10-09 10:19:12  Corie618_Sofia418_Kerluke267_ba419d35-0dfe-8af7-347c-eebf02485a56.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cba419d35-0dfe-8af7-347c-eebf02485a56&_summary=count
+2026-10-09 10:19:12  Hermine424_Tamie596_Howe413_d71037ea-9732-2a09-8948-91e12c044979.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd71037ea-9732-2a09-8948-91e12c044979&_summary=count
+2026-10-09 10:19:12  Ruben688_Waters156_e23e4bbc-f14e-ef73-79be-585c23adddde.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Ce23e4bbc-f14e-ef73-79be-585c23adddde&_summary=count
+2026-10-09 10:19:12  Reyes140_Boyer713_bcec5d06-fef8-2b77-69a9-332c43bc2233.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cbcec5d06-fef8-2b77-69a9-332c43bc2233&_summary=count
+2026-10-09 10:19:12  Sol312_White193_83888e69-24eb-2c64-d5c5-f5430733e37f.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C83888e69-24eb-2c64-d5c5-f5430733e37f&_summary=count
+2026-10-09 10:19:13  Letty680_Kerluke267_cf22cde5-48e9-1907-78ec-42abd6782fbe.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Ccf22cde5-48e9-1907-78ec-42abd6782fbe&_summary=count
+2026-10-09 10:19:13  Bao544_Adams676_7b7389cb-00f6-4022-6b66-c233c3375d64.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C7b7389cb-00f6-4022-6b66-c233c3375d64&_summary=count
+2026-10-09 10:19:13  Agustín529_Malave728_92683f03-a77a-0f78-b618-266ad9a301be.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C92683f03-a77a-0f78-b618-266ad9a301be&_summary=count
+2026-10-09 10:19:13  Jeraldine574_Santos184_Eichmann909_92d32bde-6f58-766d-1ecc-bd45d93ec272.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C92d32bde-6f58-766d-1ecc-bd45d93ec272&_summary=count
+2026-10-09 10:19:13  Hope196_Clementina782_Bartoletti50_af854255-f20d-8efd-6423-ea28928da57c.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Caf854255-f20d-8efd-6423-ea28928da57c&_summary=count
+2026-10-09 10:19:14  Adalberto916_Raynor401_66c884ca-9d42-cd8e-4559-23e078804389.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C66c884ca-9d42-cd8e-4559-23e078804389&_summary=count
+2026-10-09 10:19:14  Merry217_Boyer713_d5ccc11b-8f52-be82-1d8f-86b67bc393dc.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd5ccc11b-8f52-be82-1d8f-86b67bc393dc&_summary=count
+2026-10-09 10:19:14  Bradly656_Zemlak964_ce2e160d-4a41-c64a-859f-2653d0ec39ad.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cce2e160d-4a41-c64a-859f-2653d0ec39ad&_summary=count
+2026-10-09 10:19:14  Kathlyn335_Sarah635_Kulas532_d56d5655-2596-9bf6-4d4a-f62aa25c944a.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd56d5655-2596-9bf6-4d4a-f62aa25c944a&_summary=count
+2026-10-09 10:19:14  Hans694_Bogisich202_b329ef8d-a18b-a62f-aa37-7b5ca4504f4b.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cb329ef8d-a18b-a62f-aa37-7b5ca4504f4b&_summary=count
+2026-10-09 10:19:14  Jody426_Monahan736_35b353dd-402b-571a-d67a-af0a104d0854.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C35b353dd-402b-571a-d67a-af0a104d0854&_summary=count
+2026-10-09 10:19:15  Tijuana228_Allena79_Ruecker817_5c8956ba-3359-155e-a6f4-0e1d5bc43a77.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C5c8956ba-3359-155e-a6f4-0e1d5bc43a77&_summary=count
+2026-10-09 10:19:15  Hubert238_Heaney114_6af4b4ae-3ccb-6edd-d3af-4e49ab425902.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C6af4b4ae-3ccb-6edd-d3af-4e49ab425902&_summary=count
+2026-10-09 10:19:15  Laraine204_Alpha246_Grimes165_9255b577-57ec-5114-269d-ae0e5e12f290.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C9255b577-57ec-5114-269d-ae0e5e12f290&_summary=count
+2026-10-09 10:19:15  Gretchen912_Renner328_429c0ce7-01f1-b23c-fe3c-0a1d24bc3cb9.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C429c0ce7-01f1-b23c-fe3c-0a1d24bc3cb9&_summary=count
+2026-10-09 10:19:16  Cherelle538_Shalon513_Cronin387_a5775c52-8ae5-e37c-3539-7113903ec772.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Ca5775c52-8ae5-e37c-3539-7113903ec772&_summary=count
+2026-10-09 10:19:16  Sheldon401_Stoltenberg489_d25deaa9-e42d-6346-f328-481a382e8e88.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd25deaa9-e42d-6346-f328-481a382e8e88&_summary=count
+2026-10-09 10:19:16  Willow678_Rosalina69_Bogisich202_280bfde4-9078-ccf0-2985-90f1632fa136.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C280bfde4-9078-ccf0-2985-90f1632fa136&_summary=count
+2026-10-09 10:19:16  Jenise920_Magali989_Conn188_cb7ce8c8-c3cb-6ad3-c64d-747e64fa9a5f.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Ccb7ce8c8-c3cb-6ad3-c64d-747e64fa9a5f&_summary=count
+2026-10-09 10:19:16  Elisa944_Consuelo468_Koepp521_f6551cf2-a3ff-3194-689c-5f8b162050a1.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cf6551cf2-a3ff-3194-689c-5f8b162050a1&_summary=count
+2026-10-09 10:19:16  John539_Mosciski958_989701a8-74fe-34f8-49dd-6a2973370b2e.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C989701a8-74fe-34f8-49dd-6a2973370b2e&_summary=count
+2026-10-09 10:19:17  Jamar151_Rohan584_6c56f201-20c5-05fc-0fdd-c613ce93b885.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C6c56f201-20c5-05fc-0fdd-c613ce93b885&_summary=count
+2026-10-09 10:19:17  Maryann106_Kali995_Balistreri607_82312251-db0a-9697-d152-8f86a1274d79.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C82312251-db0a-9697-d152-8f86a1274d79&_summary=count
+2026-10-09 10:19:17  Al123_Hammes673_58aab78c-ee65-4e40-7986-a61108d44eb8.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C58aab78c-ee65-4e40-7986-a61108d44eb8&_summary=count
+2026-10-09 10:19:17  Sharda101_Krystina167_Rath779_96a88082-137f-80a2-5283-862ed9b56be9.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C96a88082-137f-80a2-5283-862ed9b56be9&_summary=count
+2026-10-09 10:19:17  Lewis216_Witting912_e78d61ea-e608-9f53-f746-45244e1b25b0.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Ce78d61ea-e608-9f53-f746-45244e1b25b0&_summary=count
+2026-10-09 10:19:18  Lenard338_McKenzie376_b274b53d-66eb-0cfe-9d2c-0da7e3d0aa26.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cb274b53d-66eb-0cfe-9d2c-0da7e3d0aa26&_summary=count
+2026-10-09 10:19:18  Nedra260_Alverta45_Sawayn19_d8f31ad7-7113-4bdb-e0f1-da0134f8c6c6.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd8f31ad7-7113-4bdb-e0f1-da0134f8c6c6&_summary=count
+2026-10-09 10:19:18  Eartha927_Julene165_Reilly981_41896468-d1d6-3549-aeec-60a80b0d4f92.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C41896468-d1d6-3549-aeec-60a80b0d4f92&_summary=count
+2026-10-09 10:19:19  Rosalba160_Larson43_5e7ebf2c-22ec-a89b-53ab-38edddd81be9.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C5e7ebf2c-22ec-a89b-53ab-38edddd81be9&_summary=count
+2026-10-09 10:19:19  Eunice461_Diann220_Beahan375_d3727ff2-5d7b-347f-d78c-edc4323cf890.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd3727ff2-5d7b-347f-d78c-edc4323cf890&_summary=count
+2026-10-09 10:19:19  Meridith488_Thiel172_56f9aa9c-814a-a5fa-defa-c4f5540dc0a8.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C56f9aa9c-814a-a5fa-defa-c4f5540dc0a8&_summary=count
+2026-10-09 10:19:19  María_Cristina383_Norma469_Pichardo350_7cfa80d2-3524-69e2-3f75-3559d3214f32.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C7cfa80d2-3524-69e2-3f75-3559d3214f32&_summary=count
+2026-10-09 10:19:19  Chung121_Klocko335_f5f69f6c-3123-e6a6-a5ec-0e327717358e.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cf5f69f6c-3123-e6a6-a5ec-0e327717358e&_summary=count
+2026-10-09 10:19:20  Maxwell782_Hoppe518_63704051-87c6-43f5-4a5d-596e4394bad8.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C63704051-87c6-43f5-4a5d-596e4394bad8&_summary=count
+2026-10-09 10:19:20  Carey440_Mraz590_6f45f2e9-a617-570a-8867-dec1260088bb.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C6f45f2e9-a617-570a-8867-dec1260088bb&_summary=count
+2026-10-09 10:19:20  Jesse626_Wolf938_26aa011e-0d75-d1a3-3c5a-560a9450cc9d.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C26aa011e-0d75-d1a3-3c5a-560a9450cc9d&_summary=count
+2026-10-09 10:19:20  Angelo118_DuBuque211_5f717f67-cedb-f96c-dc1f-c8f27c346dd8.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C5f717f67-cedb-f96c-dc1f-c8f27c346dd8&_summary=count
+2026-10-09 10:19:21  Stuart913_Price929_a56f7570-fa42-cebe-bded-330118a4268c.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Ca56f7570-fa42-cebe-bded-330118a4268c&_summary=count
+2026-10-09 10:19:21  Wallace647_Effertz744_5e688e99-61b3-5c88-3f60-21df8aaced27.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C5e688e99-61b3-5c88-3f60-21df8aaced27&_summary=count
+2026-10-09 10:19:21  Ana972_Marcia467_Klein929_61f0d3ca-b4c9-52e3-eef6-e52d42080cdd.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C61f0d3ca-b4c9-52e3-eef6-e52d42080cdd&_summary=count
+2026-10-09 10:19:22  Parker433_Hintz995_d2bfeab4-a47f-4b25-61ce-03bfb275a4b1.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd2bfeab4-a47f-4b25-61ce-03bfb275a4b1&_summary=count
+2026-10-09 10:19:22  Pamela954_Gilma310_Walsh511_6bc4cd5d-0216-17a9-8192-ac2209957d3a.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C6bc4cd5d-0216-17a9-8192-ac2209957d3a&_summary=count
+2026-10-09 10:19:22  Alethia102_Beatris270_Kris249_76a1559f-a83a-59b9-ed07-4efd4a0f1b39.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C76a1559f-a83a-59b9-ed07-4efd4a0f1b39&_summary=count
+2026-10-09 10:19:22  Elmo857_Greenholt190_815e3b61-03d7-899b-96b2-7515cc447b0b.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C815e3b61-03d7-899b-96b2-7515cc447b0b&_summary=count
+2026-10-09 10:19:22  Paul232_Tremblay80_9661a432-4630-2cd9-142c-386845fae837.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C9661a432-4630-2cd9-142c-386845fae837&_summary=count
+2026-10-09 10:19:23  Candis134_Stefanie819_Weissnat378_b9b70ff7-6ecb-a8df-d07f-a6cc89ab5849.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cb9b70ff7-6ecb-a8df-d07f-a6cc89ab5849&_summary=count
+2026-10-09 10:19:23  Tammi724_Wilhelmina724_Dickinson688_c14b626f-ac37-4660-b9b2-5a00207bd2cf.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cc14b626f-ac37-4660-b9b2-5a00207bd2cf&_summary=count
+2026-10-09 10:19:24  Santa373_Rodriguez71_8a378120-cbc8-8dc0-04be-44a8c807932f.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C8a378120-cbc8-8dc0-04be-44a8c807932f&_summary=count
+2026-10-09 10:19:24  Gregorio366_Orozco750_421719bf-f1bd-7712-6a4a-8dd749f47a7e.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C421719bf-f1bd-7712-6a4a-8dd749f47a7e&_summary=count
+2026-10-09 10:19:25  Jody426_Hickle134_76b20010-c318-5754-8c85-983aa538522f.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C76b20010-c318-5754-8c85-983aa538522f&_summary=count
+2026-10-09 10:19:25  Rosario163_Ortiz186_bff9d9d5-ee3d-d852-9c67-36d8361a4a4a.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cbff9d9d5-ee3d-d852-9c67-36d8361a4a4a&_summary=count
+2026-10-09 10:19:25  Garrett899_Bartell116_9d361982-b058-0cea-4715-a66fa5d38e99.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C9d361982-b058-0cea-4715-a66fa5d38e99&_summary=count
+2026-10-09 10:19:25  Cristobal567_Montero62_c86c400e-ff88-a1e3-2e23-caa4d8311f47.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cc86c400e-ff88-a1e3-2e23-caa4d8311f47&_summary=count
+2026-10-09 10:19:25  Xavier983_VonRueden376_c66e4f6a-5dd7-04e6-a6c2-b9f4122446d2.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cc66e4f6a-5dd7-04e6-a6c2-b9f4122446d2&_summary=count
+2026-10-09 10:19:26  Faustino767_Langworth352_5ba0a3f3-32f7-02b1-ec6a-8f568923954c.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C5ba0a3f3-32f7-02b1-ec6a-8f568923954c&_summary=count
+2026-10-09 10:19:26  Odis959_Schiller186_b85a172f-e790-42a2-847e-50950f0f25ee.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cb85a172f-e790-42a2-847e-50950f0f25ee&_summary=count
+2026-10-09 10:19:26  Vannessa721_Becki838_Doyle959_0f296440-8c03-fc4e-0bff-6ab523d00e8b.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C0f296440-8c03-fc4e-0bff-6ab523d00e8b&_summary=count
+2026-10-09 10:19:26  Rod343_Grimes165_b27ee48d-2590-6e78-ee68-28a31a2b37e1.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cb27ee48d-2590-6e78-ee68-28a31a2b37e1&_summary=count
+2026-10-09 10:19:28  Bettina657_O'Reilly797_0d6a874a-279a-257b-e1be-561449de44f0.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C0d6a874a-279a-257b-e1be-561449de44f0&_summary=count
+2026-10-09 10:19:28  Larissa293_Jackeline690_Goldner995_eb5910f1-26e6-bc6f-b300-716eae678d6f.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Ceb5910f1-26e6-bc6f-b300-716eae678d6f&_summary=count
+2026-10-09 10:19:28  Jefferson174_Dach178_17cb5ccc-4c1f-9747-f535-e57cd464679d.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C17cb5ccc-4c1f-9747-f535-e57cd464679d&_summary=count
+2026-10-09 10:19:28  Estrella224_Hane680_cae17d4e-0c49-5180-53e9-bf90f96194e3.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Ccae17d4e-0c49-5180-53e9-bf90f96194e3&_summary=count
+2026-10-09 10:19:29  Genoveva361_Lilliam592_Little434_4760e5e7-fa82-b084-95cb-bb4564d42496.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C4760e5e7-fa82-b084-95cb-bb4564d42496&_summary=count
+2026-10-09 10:19:29  Rosella686_Ryan260_Botsford977_715724a5-2018-a4ef-8f62-42ec13f9c91d.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C715724a5-2018-a4ef-8f62-42ec13f9c91d&_summary=count
+2026-10-09 10:19:29  Neal874_Collier206_bed3214d-fbf3-3147-203e-151f1f68c4fd.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cbed3214d-fbf3-3147-203e-151f1f68c4fd&_summary=count
+2026-10-09 10:19:29  Shalanda398_Terry864_46ee9d82-b52c-856d-069b-5064ff052225.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C46ee9d82-b52c-856d-069b-5064ff052225&_summary=count
+2026-10-09 10:19:30  Wayne846_McLaughlin530_f32a088b-988b-d7d5-008b-89ea4ed1fc48.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cf32a088b-988b-d7d5-008b-89ea4ed1fc48&_summary=count
+2026-10-09 10:19:30  Alejandrina481_Rempel203_e4dffd18-650e-d1a9-f0bb-df102547605e.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Ce4dffd18-650e-d1a9-f0bb-df102547605e&_summary=count
+2026-10-09 10:19:30  Lolita963_Mandy775_Thiel172_ffec08f0-0554-aefd-8cf2-28c0f653b29d.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cffec08f0-0554-aefd-8cf2-28c0f653b29d&_summary=count
+2026-10-09 10:19:32  Wilfredo622_Fritsch593_aee7bbe1-0c45-c028-1e62-1f4cdb30c273.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Caee7bbe1-0c45-c028-1e62-1f4cdb30c273&_summary=count
+2026-10-09 10:19:32  Boyce638_Johns824_18cbb615-420a-8641-133c-af71cbb769be.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C18cbb615-420a-8641-133c-af71cbb769be&_summary=count
+2026-10-09 10:19:33  Monet875_Monnie762_Bartoletti50_46a1ef42-a31f-5286-76d6-fab2c6eba3ef.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C46a1ef42-a31f-5286-76d6-fab2c6eba3ef&_summary=count
+2026-10-09 10:19:33  Brande998_Vinita997_Mante251_0eca4baf-5f83-d9a4-a88a-d1aeff629ff9.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C0eca4baf-5f83-d9a4-a88a-d1aeff629ff9&_summary=count
+2026-10-09 10:19:33  Chester802_Aufderhar910_080b069b-5108-46b6-ecef-6aacd3b9ef3f.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C080b069b-5108-46b6-ecef-6aacd3b9ef3f&_summary=count
+2026-10-09 10:19:33  Randal152_Gusikowski974_50ad813c-cbc2-47aa-eaaa-8694cbcd66c9.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C50ad813c-cbc2-47aa-eaaa-8694cbcd66c9&_summary=count
+2026-10-09 10:19:34  Jerome176_Marvin195_c5417a4a-4504-4f02-d557-3d060352c35d.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cc5417a4a-4504-4f02-d557-3d060352c35d&_summary=count
+2026-10-09 10:19:34  Mauro926_Braun514_2d68ad16-268a-478c-1f84-d0f1976e1a46.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C2d68ad16-268a-478c-1f84-d0f1976e1a46&_summary=count
+2026-10-09 10:19:34  Joesph309_Blanda868_55133401-cd51-32bc-3046-82cb0a11d3da.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C55133401-cd51-32bc-3046-82cb0a11d3da&_summary=count
+2026-10-09 10:19:35  Sharyn437_Hagenes547_c053e996-a4c4-6c02-e2b6-284227156c67.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cc053e996-a4c4-6c02-e2b6-284227156c67&_summary=count
+2026-10-09 10:19:35  Renaldo199_Crist667_b6a1cac9-8873-36a7-e726-4aad8a07d44d.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cb6a1cac9-8873-36a7-e726-4aad8a07d44d&_summary=count
+2026-10-09 10:19:37  Penelope500_Clyde817_Becker968_79e54637-1457-46a8-c7f5-542f22830d84.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C79e54637-1457-46a8-c7f5-542f22830d84&_summary=count
+2026-10-09 10:19:38  Hilario934_Lesch175_1dd05237-1d94-cd7b-7d23-3efb4276d3b4.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C1dd05237-1d94-cd7b-7d23-3efb4276d3b4&_summary=count
+2026-10-09 10:19:38  Kizzie166_Harber290_09570ca0-77fa-de46-54b5-14ac2040a62e.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C09570ca0-77fa-de46-54b5-14ac2040a62e&_summary=count
+2026-10-09 10:19:38  Evangeline16_Lila466_O'Conner199_846dca41-894c-a653-1cd6-bd677ffa2151.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C846dca41-894c-a653-1cd6-bd677ffa2151&_summary=count
+2026-10-09 10:19:39  Yessenia339_Latrisha74_Murphy561_c38fe8eb-b647-2122-2f22-bbe9c3ce05fc.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cc38fe8eb-b647-2122-2f22-bbe9c3ce05fc&_summary=count
+2026-10-09 10:19:39  Josh874_Leuschke194_9618b67f-a3f5-d203-6253-8decd9e97e5f.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C9618b67f-a3f5-d203-6253-8decd9e97e5f&_summary=count
+2026-10-09 10:19:40  Zelda766_Metz686_daf8f87e-f818-7c57-c447-e322209f28b3.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cdaf8f87e-f818-7c57-c447-e322209f28b3&_summary=count
+2026-10-09 10:19:40  Ivory697_Miller503_18b101ed-6582-7193-5a1a-cac8e8de151c.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C18b101ed-6582-7193-5a1a-cac8e8de151c&_summary=count
+2026-10-09 10:19:41  Dong972_Borer986_06fe0fa1-aba9-b4f6-6231-5f41bd42492d.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C06fe0fa1-aba9-b4f6-6231-5f41bd42492d&_summary=count
+2026-10-09 10:19:44  Brianna665_Bertha558_Pagac496_0487bddf-a97a-7671-f68a-9585525068eb.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C0487bddf-a97a-7671-f68a-9585525068eb&_summary=count
+2026-10-09 10:19:45  Blair400_Murphy561_541c815b-f845-f154-e834-5305410bdf96.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C541c815b-f845-f154-e834-5305410bdf96&_summary=count
+2026-10-09 10:19:45  Vanetta255_Alice368_Hirthe744_2a7402c0-8a10-d58c-7b43-2d870a424987.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C2a7402c0-8a10-d58c-7b43-2d870a424987&_summary=count
+2026-10-09 10:19:46  Guillermina633_Gamez720_b9e042d0-823d-0396-d50a-87eadb3e0fd3.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cb9e042d0-823d-0396-d50a-87eadb3e0fd3&_summary=count
+2026-10-09 10:19:47  Roxanne257_Herzog843_1f5e460e-a26c-0249-60be-12108a34dfcb.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C1f5e460e-a26c-0249-60be-12108a34dfcb&_summary=count
+2026-10-09 10:19:48  Lavette209_Cathrine584_Corkery305_d20bc0bc-3051-ae6f-f391-ceec7ec0370f.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd20bc0bc-3051-ae6f-f391-ceec7ec0370f&_summary=count
+2026-10-09 10:19:53  Gerda633_Trantow673_4e3a6f7b-ffb9-5478-ae0f-e03a42891892.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C4e3a6f7b-ffb9-5478-ae0f-e03a42891892&_summary=count
+2026-10-09 10:19:54  Jame231_Keebler762_56258afc-7573-5e2b-fad0-b5cfe5f2c87d.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C56258afc-7573-5e2b-fad0-b5cfe5f2c87d&_summary=count
+2026-10-09 10:19:55  Ivan258_Goodwin327_d15b23ed-02d5-3e28-efbd-2604425317c5.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd15b23ed-02d5-3e28-efbd-2604425317c5&_summary=count
+2026-10-09 10:19:56  Samuel331_Dach178_da2b6c02-3d00-97b4-57a1-c579115ea61c.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cda2b6c02-3d00-97b4-57a1-c579115ea61c&_summary=count
+2026-10-09 10:19:57  Ezra452_Schroeder447_4a3660b4-9af6-5fbb-5d47-895d40fac0ce.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C4a3660b4-9af6-5fbb-5d47-895d40fac0ce&_summary=count
+2026-10-09 10:20:04  Kenneth671_Ritchie586_06eb6dda-a918-928f-76cf-6bf370cf2014.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C06eb6dda-a918-928f-76cf-6bf370cf2014&_summary=count
+2026-10-09 10:20:06  Peggie783_Wiza601_f9dd6522-9d7a-93cd-c9c9-4fe118627441.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cf9dd6522-9d7a-93cd-c9c9-4fe118627441&_summary=count
+2026-10-09 10:20:07  Arnulfo253_Wilderman619_6b3a4e2a-af8e-8780-e943-8fb27c617120.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C6b3a4e2a-af8e-8780-e943-8fb27c617120&_summary=count
+2026-10-09 10:20:09  Elaine830_Cherelle538_McClure239_d9e261ae-4435-9c50-78d9-1a8ad8f4f62c.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd9e261ae-4435-9c50-78d9-1a8ad8f4f62c&_summary=count
+2026-10-09 10:20:11  Issac619_Koch169_7875102b-de07-c9ed-7294-6dc66633317e.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C7875102b-de07-c9ed-7294-6dc66633317e&_summary=count
+2026-10-09 10:20:19  Adah626_Flo729_Bechtelar572_f7adc5f3-fc3c-f928-7cd1-d8d3a49f3c38.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cf7adc5f3-fc3c-f928-7cd1-d8d3a49f3c38&_summary=count
+2026-10-09 10:20:21  Oscar384_Jacobs452_c6814385-c565-06bc-cbf9-8ad36e67bba8.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cc6814385-c565-06bc-cbf9-8ad36e67bba8&_summary=count
+2026-10-09 11:02:25  Peggie783_Wiza601_f9dd6522-9d7a-93cd-c9c9-4fe118627441.json
+    HTTP 500 after 146s: HAPI-0389: Failed to call access method: org.springframework.dao.DataAccessResourceFailureException: Unable to release JDBC Connection [The database has been closed [90098-232]] [n/a]
+2026-10-09 11:02:27  Arnulfo253_Wilderman619_6b3a4e2a-af8e-8780-e943-8fb27c617120.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C6b3a4e2a-af8e-8780-e943-8fb27c617120&_summary=count
+2026-10-09 11:02:29  Elaine830_Cherelle538_McClure239_d9e261ae-4435-9c50-78d9-1a8ad8f4f62c.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cd9e261ae-4435-9c50-78d9-1a8ad8f4f62c&_summary=count
+2026-10-09 11:02:32  Issac619_Koch169_7875102b-de07-c9ed-7294-6dc66633317e.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7C7875102b-de07-c9ed-7294-6dc66633317e&_summary=count
+2026-10-09 11:02:35  Adah626_Flo729_Bechtelar572_f7adc5f3-fc3c-f928-7cd1-d8d3a49f3c38.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cf7adc5f3-fc3c-f928-7cd1-d8d3a49f3c38&_summary=count
+2026-10-09 11:02:38  Oscar384_Jacobs452_c6814385-c565-06bc-cbf9-8ad36e67bba8.json
+    HTTPError: 500 Server Error:  for url: http://localhost:8080/fhir/Patient?identifier=https%3A%2F%2Fgithub.com%2Fsynthetichealth%2Fsynthea%7Cc6814385-c565-06bc-cbf9-8ad36e67bba8&_summary=count

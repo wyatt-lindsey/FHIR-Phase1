@@ -23,7 +23,7 @@ from valuesets import SGLT2_INGREDIENTS
 
 RXNAV = "https://rxnav.nlm.nih.gov/REST"
 # Clinical drug, branded drug, generic pack, branded pack
-PRODUCT_TTYS = "SCD+SBD+GPCK+BPCK"
+PRODUCT_TTYS = "SCD SBD GPCK BPCK"
 
 
 def products_for(ingredient_rxcui):

@@ -76,11 +76,11 @@ If you change the seed, population size, or age range, update the command here s
 
 To stop the server, run:
 ```bash
-   docker stop hapi
+   docker compose stop hapi
    ```
 To start the server, run:
 ```bash
-   docker start hapi
+   docker compose start hapi
    ```
 
 ## Data rules

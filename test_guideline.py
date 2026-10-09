@@ -63,6 +63,28 @@ def test_egfr_threshold(egfr, expected):
 
 # --- Population ---------------------------------------------------------------
 
+def test_deceased_patient_not_applicable():
+    # D14: found in hand review (patient 112236 died in 2017; code said INSUFFICIENT_DATA)
+    p = patient()
+    p.deceased, p.deceased_date = True, days_ago(30)
+    r = evaluate(p, AS_OF)
+    assert r.status == g.NOT_APPLICABLE and "deceased" in r.reasons[0]
+
+
+def test_deceased_boolean_without_date_not_applicable():
+    p = patient()
+    p.deceased = True
+    assert evaluate(p, AS_OF).status == g.NOT_APPLICABLE
+
+
+def test_death_after_as_of_date_is_ignored():
+    # Evaluating as of a past date, before the patient died
+    p = patient()
+    p.deceased, p.deceased_date = True, AS_OF + timedelta(days=10)
+    assert evaluate(p, AS_OF).status == g.RECOMMEND
+
+
+
 def test_under_18_not_applicable():
     assert evaluate(patient(age=17), AS_OF).status == g.NOT_APPLICABLE
 
@@ -130,6 +152,32 @@ def test_resolved_ckd_without_lab_evidence():
 
 
 # --- Exclusions and data gaps -------------------------------------------------
+
+# D15: several eGFR results on the latest day (found in hand review, patient 220864:
+# 54.377 and 16.41 at the same timestamp, and the code picked one arbitrarily)
+
+@pytest.mark.parametrize("order", [((54.377, 0), (16.41, 0)), ((16.41, 0), (54.377, 0))])
+def test_same_day_egfr_on_both_sides_of_threshold_is_flagged(order):
+    r = evaluate(patient(egfr=((45, 120),) + order), AS_OF)
+    assert r.status == g.INSUFFICIENT_DATA
+    assert "Conflicting eGFR" in r.reasons[-1]
+
+
+def test_same_day_egfr_both_above_threshold_uses_lowest():
+    r = evaluate(patient(egfr=((48, 5), (31, 5))), AS_OF)
+    assert r.status == g.RECOMMEND
+    assert r.facts["latest_egfr"][0] == 31
+
+
+def test_same_day_egfr_both_below_threshold():
+    r = evaluate(patient(egfr=((18, 5), (12, 5))), AS_OF)
+    assert r.status == g.NOT_APPLICABLE
+
+
+def test_older_low_result_does_not_count_as_same_day():
+    r = evaluate(patient(egfr=((15, 40), (45, 5))), AS_OF)
+    assert r.status == g.RECOMMEND
+
 
 def test_already_on_sglt2():
     r = evaluate(patient(meds=(METFORMIN, CANAGLIFLOZIN)), AS_OF)
@@ -219,6 +267,9 @@ def test_build_patient_data_from_fhir_json():
                                           "text": "Humulin 70/30"}}}
 
     p = g.build_patient_data(pat, conds, obs, meds, med_res)
+    assert p.deceased is False
+    dead = g.build_patient_data({**pat, "deceasedDateTime": "2017-03-02T10:00:00-05:00"}, conds, obs, meds, med_res)
+    assert dead.deceased and dead.deceased_date == date(2017, 3, 2)
     assert p.name == "Lyman173 Runte676"
     assert p.birth_date == date(1960, 5, 1)
     assert p.egfr[0].value == 41.2 and p.egfr[0].when == date(2026, 9, 13)

@@ -70,8 +70,8 @@ EGFR = {
     }
 }
 
-# Urine albumin-to-creatinine ratio (mg/g). Synthea does NOT generate this lab;
-# it only produces dipstick urine protein. Real EHRs will have it.
+# Urine albumin-to-creatinine ratio (mg/g). Synthea generates it for some
+# patients only; real EHRs order it routinely for people with diabetes.
 UACR = {
     LOINC: {
         "9318-7",    # Albumin/Creatinine [Mass Ratio] in Urine

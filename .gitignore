@@ -11,3 +11,6 @@ venv/
 # Editors and OS
 .vscode/
 .DS_Store
+
+# Patient CSVs
+*.csv
